@@ -1,0 +1,21 @@
+malzemeler :
+1 adet lcd ekran (I2C protokolü)
+1 adet mesafe sensörü 
+1 adet uno kart 
+1 adet step motor ve sürücü kartı 
+1 adet buzzr 
+1 adet 330Ohm Direnç 
+1 adet breadboard 
+10 adet dişi erkek jumper kablo 
+8 adet erkek erkek jumper kablo 
+
+kablolama ve pınler:
+breadboard : breadboard - ile arduino gnd pın  bağla ,  breadboard + ile arduino 5v pın  bağla 
+
+lcd ekran : gnd ile breadbord - hattına bağla , vcc ile breadboard + hattına bağla , sda ile arduıno karttakı A4 bağla , scl ile arduıno karttaki A5 bağla
+
+mesafe sensörü : vcc breadboard hattındaki + bağla , gnd breadboard hattındaki - bağla ,trig arduıno karttaki  7 girişe bağla , echo arduıno karttaki 6 girişe bağla
+
+buzzr : buzzr artı bacağını arduıno karttakı 2 girişe bağla , buzzr eksi bacağına  330Ohm Direnç  bağla ve breadborddaki - hattına bağla
+
+step motor ve sürücü kartı  : sürücü kartındaki - girişini breadboardaki - hattına bağla ,   sürücü kartındaki + girişini breadboardaki + hattına bağla , IN1 girişini 11 ,IN2 girişini 10,IN3 girişini 9 ,IN4 girişini 8 
